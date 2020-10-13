@@ -1,8 +1,11 @@
 def intersection(arrays):
-    """
-    YOUR CODE HERE
-    """
-    # Your code here
+    arr_dict = {}
+    combined = zip(arrays)
+    result = []
+    for i in combined:
+        if i == i:
+            result.append(i)
+
 
     return result
 
